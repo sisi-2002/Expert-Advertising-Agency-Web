@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: url(assests/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+.navbar {
+    
+    background-color:rgb(52, 42, 42);
+    opacity: 75%;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 144px;
+    
+
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    margin-left: 790px;
+    margin-top: 48px;
+  
+}
+li {
+    float: left;
+    
+}
+
+.menu li a {
+    display: block;
+    color: rgb(244, 239, 239);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+.menu li a:hover {
+    color: #de0909;
+    transition-duration: 0.5s;
+}
+.profile{
+   text-align: right;
+   
+}
+.profile ul {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    position: fixed;
+    margin-left: 1240px;
+    margin-top: 33px;
+    border:1px solid;
+    border-radius: 243px;
+    border-color: white;
+    
+    
+    
+}
+.profile li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.sign a{
+    background-color: #b6aeae;
+    border-radius: 243px;
+    color: rgb(9, 6, 6);
+}
+.login a{
+    
+     color: rgb(247, 241, 241);
+     
+}
+.profile ul:hover{
+    
+    background-color: #5f5b5b;
+}
+.sign a:hover{
+    background-color: white;
+    border-radius: 243px;
+}
+.login a:hover{
+    color: rgb(253, 249, 249);
+}
+.icon{
+    
+    padding-top: 32px;
+    padding-left: 15px;
+    margin-left: 19px;
+    position: fixed;
+}
+.theme p{
+    font-size: 27px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(221, 210, 210);
+    padding-top: 300px;
+    padding-left: 174px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+.theme p:hover{
+    text-shadow: 2px 2px 8px  rgb(223, 70, 31);
+    transition: 0.4s;
+    font-size: 30px;
+
+}
+.searchbar input{
+    font-size: 20px;
+    border-radius: 19px;
+    width: 300px;
+    height:38px ;
+    background-color: rgb(55, 52, 52);
+    padding-left: 10px;
+    border: 1px solid;
+    border-color: white;
+    color: white;
+    float: left;
+    display: block;
+    margin-left: 800px;
+  
+}
+.searchbar button{
+    
+    border-radius: 19px;
+    width: 80px;
+    height:41px ;
+    background-color: #de0909 ;
+    border: 1px solid;
+    border-color: #e2d7d7;
+    margin-left: 1050px;
+    
+}
+.searchbar input,button{
+    position:fixed;
+    margin-top: 40px;
+}
+footer {
+    background-color: #e3dcdc;
+    color: #090808;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .social-media a {
+    color: #131111;
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family:Arial, sans-serif ;
+  }
+  .social-media a img{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 13px;
+  }
+  
+  .social-media a img:hover {
+     box-shadow:0px 0px 15px black;
+     transition: 0.3s;
+  }
+  .footer-container p{
+    margin-top: 34px;
+  }
+  .p1{
+    font-size: 30px;
+    margin-bottom: 34px;
+  }
+  .main2 {
+    width: 100%;
+    /*background: url(main2.jpg);*/
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+  }
+  .service li p{
+    color: rgb(10, 9, 9);
+    text-shadow: 0px 0px 8px white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    width: 310px;
+    height: 328px;
+    display:inline-block;
+    list-style-type: none;
+    text-align: center;
+    margin-left: 144px;
+    margin-top: 263px;
+    border-radius: 30px;
+    
+    
+  }
+  .ser1 p {
+    background: url(assests/ser1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 25px ;
+  }
+  .ser2 p {
+    background: url(assests/ser2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 25px ;
+  }
+  .ser3 p {
+    background: url(assests/ser3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position-x: -155px;
+    padding-top: 25px ;
+  }
+  .service p:hover{
+    box-shadow:0px 0px 25px rgb(255, 255, 255);
+    width:313px;
+    height: 331px;
+    transition: 0.3s;
+    font-size: 34px;
+  }
+  li{
+    list-style-type: none;
+  }
+  
+  

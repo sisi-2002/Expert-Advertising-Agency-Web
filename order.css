@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .main{
+    width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(assests/background.jpg) fixed;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    
+  }
+  
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+      
+  }
+  
+  .about{
+    font-size: 20px;
+    color: rgb(224, 214, 214);
+    text-align: center;
+    padding-top: 225px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 38px;
+
+  }
+  
+  
+  
+ h2{
+    margin-top: -39px;
+    margin-bottom: 48px;
+ }
+ .orderbtn{
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: red;
+    padding: 8px;
+ }
+  .orderbtn:hover{
+    background-color: rgb(154, 12, 12);
+  }
+
+.o_form li{
+    display:inline-block;
+    margin-left: 70px;
+}
+
+
+#txtarea{
+    
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: 0px solid #4c4949;
+    background-color: rgb(72, 69, 69);
+    color: white;
+    width: 259px;
+}
+.input1 input{
+    background-color: rgb(72, 69, 69);
+    color: white;
+    width: 250px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 0px solid #4c4949;
+    font-size: 16px;
+    margin-top: 6px;
+}
+.chkbox{
+    margin-left: 270px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.subbtn{
+    width: 50%;
+    padding: 10px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 23px;
+    margin-left: 174px;
+    margin-top: 31px;
+}
+input.radiobtn{
+    width: 19px;
+}
+

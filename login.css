@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+.main{
+    width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2)), url(assests/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.icon{
+    
+    padding-top: 32px;
+    padding-left: 15px;
+    margin-left: 19px;
+}    
+
+.login-container {
+    width: 400px;
+    height: 340px;
+    margin: 100px auto;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px white;
+    
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: white;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    margin-right: 24px;
+    width: 325px;
+    margin-left: 27px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 3px;
+    color: white;
+    margin-top: 4px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 0px solid #ccc;
+    background-color: rgb(96, 87, 87);
+    color: white;
+    margin-top: 5px;
+    height: 22px;
+    
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(204, 34, 34);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 23px;
+    width: 342px;
+    margin-top: 35px;
+}
+
+button:hover {
+    background-color: #5b0707;
+}
+p{
+    color: white;
+    text-align: center;
+}
+a{
+    color: red;
+}

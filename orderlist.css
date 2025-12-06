@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2)), url(assests/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+  }
+  .icon{
+    
+    padding-top: 32px;
+    padding-left: 15px;
+    margin-left: 19px;
+  }    
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: white;
+    font-size: 16px;
+  }
+  
+  
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+  }
+
+  th{
+    color: black;
+    background-color: #7e7878;
+    border-radius: 10px;
+    height:55px;
+    border: 0px solid ;
+  }
+
+  td{
+    color: rgb(50, 4, 4);
+    background-color: #e1d5d5;
+    border-radius: 10px;
+    padding:4px 4px 4px 4px;
+    height:40px ;
+    border: 0px solid ;
+    text-align: center;
+  }
+
+  #update
+  {
+    color: black;
+    background-color: #e96a6a;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 29px;
+    border: 0px solid #13dbbd;
+    color: white;
+    width: 200px;
+    align-self: center;
+  }
+  ul{
+    list-style-type: none;
+  }
+  table{
+    border-spacing:9px 8px ;
+    border-collapse: separate;
+    border-radius: 5px;
+    width: 100%;
+    border: 0px solid ;
+    margin-top: 200px;
+  }
+  a.tabbtn1{
+    background-color: green;
+    color: white;
+    padding: 6px 6px 6px 6px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  a.tabbtn2{
+    background-color: green;
+    color: white;
+    padding: 6px 6px 6px 6px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+  
+  }
+  .notifi{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 300px;
+    color: red;
+  }
+  .addnew{
+    font-size: 20px;
+    color: rgb(239, 240, 239);
+    text-decoration: none;
+    background-color: red;
+    padding: 6px 6px 6px 6px;
+    border-radius: 8px;
+    margin-left: 650px;
+  }
+
+  
+
+
+
+  
+  

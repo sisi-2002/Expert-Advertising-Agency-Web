@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .main{
+    width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.6)), url(assests/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+      
+  }
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 60px;
+    font-size: 18px;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 0px solid #ddd;
+    color: white;
+    background-color: rgb(203, 187, 187);
+    
+}
+th {
+    background-color: #423e3e;
+}
+td{
+    color: black;
+}
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.tabbtn1{
+    background-color: green;
+    color: white;
+    padding: 6px 6px 6px 6px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.lgout{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 4px 6px 4px 6px ;
+    border-radius: 10px;
+    margin-left: 1380px;
+    margin-top: -63px;
+    float: left;
+  }
+  .icon{
+    
+    padding-top: 32px;
+    padding-left: 15px;
+    margin-left: 19px;
+}    
+  .addadmin{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    padding: 6px 8px 6px 8px;
+    border-radius: 8px;
+    float:right ;
+    margin-right: 220px;
+    margin-top: -59px;
+    box-shadow: 2px 2px 4px 8px rgba(0, 0, 0,);
+  }
+  .addadmin:hover{
+      color: red;
+      transition: 0.7s;
+      
+  }
+  
+  

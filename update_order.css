@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.6)), url(assests/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.icon{
+    
+    padding-top: 32px;
+    padding-left: 15px;
+    margin-left: 19px;
+}    
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;  
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(213, 203, 203);
+    font-size: 20px;
+}
+h2{
+    color: rgb(213, 203, 203);
+    
+}
+select{
+    width: 320px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    font-size: 20px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    font-size: 20px;
+}
+textarea{
+    width: 300px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    font-size: 20px;
+}
+select,input,textarea,label{
+    margin-left: 590px;
+}
+.btn{
+   background-color: red;
+   color: white;
+   margin-left: 597px;
+}
+.btn:hover{
+    background-color: rgb(117, 28, 28);
+}

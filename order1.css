@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2)), url(assests/background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+.icon{
+  
+  padding-top: 32px;
+  padding-left: 15px;
+  margin-left: 19px;
+}    
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: white;
+  font-size: 16px;
+}
+
+.order-container {
+  width: 790px;
+  height: 500px;
+  margin: 100px auto;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px white;
+  margin-top: 27px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+ul li{
+  display:inline-block;
+  margin-left: 70px;
+  
+}
+
+
+#txtarea{
+  
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border: 0px solid #4c4949;
+  background-color: rgb(72, 69, 69);
+  color: white;
+  width: 259px;
+}
+.input1 input{
+  background-color: rgb(72, 69, 69);
+  color: white;
+  width: 250px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 0px solid #4c4949;
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+.input1 select{
+  background-color: rgb(72, 69, 69);
+  color: white;
+  width: 250px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 0px solid #4c4949;
+  font-size: 16px;
+  margin-top: 6px;
+}
+.chkbox{
+  margin-left: 270px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.orderbtn{
+  width: 50%;
+  padding: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 23px;
+  margin-left: 174px;
+  margin-top: 31px;
+  color: white;
+}
+input.radiobtn{
+  width: 19px;
+}
+.orderli{
+  font-size: 23px;
+  margin-left: 310px;
+ text-decoration: none;
+ color: rgb(255, 0, 0);
+ border: 1px rgb(247, 0, 0) solid;
+ border-radius: 10px;
+ padding: 5px 4px 6px 6px;
+} 

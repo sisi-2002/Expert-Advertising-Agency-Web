@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+.navbar {
+    
+    background-color:rgb(52, 42, 42);
+    opacity: 75%;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 144px;
+    
+
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    margin-left: 790px;
+    margin-top: 48px;
+  
+}
+li {
+    float: left;
+    
+}
+
+.menu li a {
+    display: block;
+    color: rgb(244, 239, 239);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+.menu li a:hover {
+    color: #de0909;
+    transition-duration: 0.5s;
+}
+
+.profile{
+   text-align: right;
+   
+}
+.profile ul {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    position: fixed;
+    margin-left: 1240px;
+    margin-top: 33px;
+    border:1px solid;
+    border-radius: 243px;
+    border-color: white;
+    
+    
+    
+}
+.profile li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.sign a{
+    background-color: #b6aeae;
+    border-radius: 243px;
+    color: rgb(9, 6, 6);
+}
+.login a{
+    
+     color: rgb(247, 241, 241);
+     
+}
+.profile ul:hover{
+    
+    background-color: #5f5b5b;
+}
+.sign a:hover{
+    background-color: white;
+    border-radius: 243px;
+}
+.login a:hover{
+    color: rgb(253, 249, 249);
+}
+.icon{
+    
+    padding-top: 32px;
+    padding-left: 15px;
+    margin-left: 19px;
+    position: fixed;
+}
+.searchbar input{
+    font-size: 20px;
+    border-radius: 19px;
+    width: 300px;
+    height:38px ;
+    background-color: rgb(55, 52, 52);
+    padding-left: 10px;
+    border: 1px solid;
+    border-color: white;
+    color: white;
+    float: left;
+    display: block;
+    margin-left: 800px;
+  
+}
+.searchbar button{
+    
+    border-radius: 19px;
+    width: 80px;
+    height:41px ;
+    background-color: #de0909 ;
+    border: 1px solid;
+    border-color: #e2d7d7;
+    margin-left: 1050px;
+    
+}
+.searchbar input,button{
+    position:fixed;
+    margin-top: 40px;
+}
+.logsign{
+    color: rgb(197, 26, 26);
+}
+a.l1{
+    color: rgb(255, 255, 255);
+    font-size:25px ;
+    margin-left: 20px;
+    text-decoration: none;
+    z-index:1;
+    float:right;
+    margin-top: -101px;
+    margin-left: 1209px;
+}
+#logoutbtn{
+    margin-top: -108px;
+    margin-left: 15px;
+    width: 90px;
+    height: 40px;
+    font-size:18px ;
+    border-radius: 15px;
+    border: none;
+}
+.logsign{
+    margin-top: -145px;
+}
+
